@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/answer1_tv"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dip"
+        android:background="@drawable/item"
+        android:gravity="center"
+        android:text="TRANSLATION 1" />
+
+    <TextView
+        android:id="@+id/answer2_tv"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/answer1_tv"
+        android:layout_margin="10dip"
+        android:background="@drawable/item"
+        android:gravity="center"
+        android:text="TRANSLATION 2" />
+
+    <TextView
+        android:id="@+id/answer3_tv"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/answer2_tv"
+        android:layout_margin="10dip"
+        android:background="@drawable/item"
+        android:gravity="center"
+        android:text="TRANSLATION 3" />
+
+    <TextView
+        android:id="@+id/word_tv"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/item"
+        android:gravity="center"
+        android:text="WORD" />
+
+</RelativeLayout>
